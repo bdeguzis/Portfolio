@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  }
+
+.navbar {
+    position: fixed !important;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    width: 1110px;
+}
+
+.viewport {
+  height: 100%;
+  width: 100%;
+}
+
+#project-title {
+  font-weight: bold;
+}
+
+.jumbotron {
+  min-height: 100vh;
+}
+
+#social_media, #projects, #about_me, #title {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+#header {
+  text-shadow: 2px 2px rgb(23, 170, 130);
+}
+
+.card-text {
+  text-align: left;
+}
+
+.welcome {
+  position: fixed;
+  height: 100vh;
+  font-size: 0;
+}
