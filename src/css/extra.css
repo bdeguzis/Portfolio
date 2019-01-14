@@ -1,5 +1,10 @@
 html, body {
   height: 100%;
+  background-image: url("https://media.discordapp.net/attachments/356921848400707585/534197634987196438/20170514_062748.jpg?width=1248&height=703");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
   }
 
 .navbar {
@@ -21,11 +26,14 @@ html, body {
 
 .jumbotron {
   min-height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+
 }
 
 #social_media, #projects, #about_me, #title {
   font-size: 1.25em;
   text-align: center;
+
 }
 
 #header {
@@ -36,8 +44,20 @@ html, body {
   text-align: left;
 }
 
+.card {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.card:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+
 .welcome {
   position: fixed;
   height: 100vh;
   font-size: 0;
+}
+
+#myCanvas {
+  background-color: rgba(0,0,0,1.0);
 }
