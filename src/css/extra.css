@@ -24,6 +24,11 @@ html, body {
   font-weight: bold;
 }
 
+#document-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 .jumbotron {
   min-height: 100vh;
   background-color: rgba(0,0,0,0.8);
@@ -58,6 +63,31 @@ html, body {
   font-size: 0;
 }
 
+.center-row-header {
+  padding-left: 3.3em;
+  padding-bottom: .5em;
+}
+
 #myCanvas {
   background-color: rgba(0,0,0,1.0);
+}
+
+#healthqlogo {
+  height: 158px;
+  width: 130px;
+}
+
+#healthqtech {
+  height: 373px;
+  width: 418px;
+  background-color: rgba(0,0,0,0.7);
+}
+
+#healthq-desc {
+  font-size: 1.2em;
+}
+
+#icon-small {
+  height: 80px;
+  width: 60px;
 }
