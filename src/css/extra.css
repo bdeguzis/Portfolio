@@ -26,7 +26,7 @@ html, body {
 
 #document-title {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .jumbotron {
@@ -38,7 +38,11 @@ html, body {
 #social_media, #projects, #about_me, #title {
   font-size: 1.25em;
   text-align: center;
+}
 
+#about_mamobooks {
+  font-size: 1.25em;
+  text-align: left;
 }
 
 #header {
@@ -77,17 +81,51 @@ html, body {
   width: 130px;
 }
 
-#healthqtech {
+#mamobookslogo {
+  height: 158px;
+  width: 158px;
+}
+
+#healthqtech, #carouselMamoBooksPics {
   height: 373px;
   width: 418px;
   background-color: rgba(0,0,0,0.7);
 }
 
-#healthq-desc {
+#healthq-desc, #mamobooks-desc {
   font-size: 1.2em;
 }
 
 #icon-small {
   height: 80px;
   width: 60px;
+}
+
+#carouselMamoBooksPics {
+  width: 60em;
+  height: 38.18em;
+  /*border-width:2px 2px 2px 4px !important;*/
+}
+
+.carousel-text {
+  font-size: 1.2em;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  width: 11em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.carousel-control-prev {
+  margin-left: -90px;
+  color: black;
+}
+.carousel-control-next {
+  margin-right: -90px;
+  color: black;
+}
+
+#carousel-buttons {
+  text-decoration: none;
+  color: white;
 }
