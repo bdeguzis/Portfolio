@@ -94,7 +94,7 @@ html, body {
   background-color: rgba(0,0,0,0.7);
 }
 
-#healthq-desc, #mamobooks-desc {
+#healthq-desc, #mamobooks-desc, #wto-desc {
   font-size: 1.2em;
 }
 
@@ -130,4 +130,14 @@ html, body {
 #carousel-buttons {
   text-decoration: none;
   color: white;
+}
+
+#wtologo {
+  background-color: rgba(0,0,0,1.0);
+  padding: 1em;
+}
+
+#wtobanner {
+  height: 100%;
+  width: 100%;
 }
