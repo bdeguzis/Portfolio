@@ -17,9 +17,10 @@ var leftPressed = false;
 var rPressed = false;
 var firstPlay = true;
 
-var bricksAlive = 0;
+
 var brickRowCount = 3;
 var brickColumnCount = 5;
+var bricksAlive = brickRowCount*brickColumnCount;
 var brickWidth = 75;
 var brickHeight = 20;
 var brickPadding = 10;
@@ -35,7 +36,6 @@ for (var c = 0; c < brickColumnCount; c++)
   for (var r = 0; r < brickRowCount; r++)
   {
     bricks[c][r] = { x: 0, y: 0, color: randomColor(), alive: 1};
-    bricksAlive++;
   }
 }
 
@@ -143,6 +143,7 @@ function newGame()
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   score = 0;
   ballSpeed = 1.5;
+  bricksAlive = brickRowCount*brickColumnCount;
   x = canvas.width / 2;
   y = canvas.height - 30;
   dx = 2;
@@ -152,7 +153,6 @@ function newGame()
     for (var r = 0; r < brickRowCount; r++)
     {
        bricks[c][r].alive = 1;
-       bricksAlive++;
      }
    }
 
