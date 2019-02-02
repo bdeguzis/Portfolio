@@ -142,6 +142,11 @@ html, body {
   width: 100%;
 }
 
+#mobilebanner {
+  height: 0px;
+  width: 0px;
+}
+
 /*media queries*/
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width : 768px) {
@@ -185,12 +190,17 @@ html, body {
 }
 
 #wtobanner {
-  height: 150%;
+  height: 0%;
+  width: 0%;
+}
+
+#mobilebanner {
+  height: 100%;
   width: 100%;
 }
 
 #mobile-buffer {
-  padding-top: 8em;
+  padding-top: 0em;
 }
 
 #mobile-buffer2 {
@@ -226,6 +236,11 @@ html, body {
   #mobile-buffer {
     padding-top: auto;
   }
+  #wtobanner {
+    height: 0%;
+    width: 0%;
+  }
+
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -236,5 +251,10 @@ html, body {
 
   #mobile-buffer {
     padding-top: auto;
+  }
+  
+  #mobilebanner {
+    height: 0%;
+    width: 0%;
   }
 }
